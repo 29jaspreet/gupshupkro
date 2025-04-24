@@ -31,7 +31,7 @@ const server = app.listen(process.env.PORT,()=>{
 
 const io = socket(server,{
     cors:{
-        origin:"https://gupshupkro-public.onrender.com",
+        origin:"https://gupshupkro-myfrontend.onrender.com",
         credentials :true,
     }
 });
